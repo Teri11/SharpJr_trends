@@ -4,3 +4,109 @@
     font-size: 2rem;
     font-weight: 900;
 }
+
+
+    .line1{
+      margin-left: 4rem;
+    
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      margin-top: 7rem;
+    }
+    #catDiv {
+      margin: 40px 6% 0 6%;
+      text-align: center;
+      margin-top: 9.5rem;
+    }
+    
+    .cat {
+      display: inline-block;
+      width: 16rem;
+      height: 16rem;
+      box-sizing: border-box;
+      text-align: center;
+      overflow: hidden;
+      border-radius: 5%;
+    }
+    
+    .cat img {
+      width: 100%;
+      height: 100%;
+    }
+    
+    .cat:hover img {
+      position: static;
+      width: 150%;
+      height: 150%;
+      align-self: center;
+      margin: -25% 0 0 -25%;
+      transition: width linear 0.5s, height linear 0.5s, margin linear 0.5s;
+    }
+    
+    .catOverlay {
+      position: relative;
+      margin: 1rem;
+    }
+    
+    .catOverlay:before{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 10%;
+      width: 10%;
+      opacity: 0;
+      content: "";
+    }
+    .catOverlay:hover:before{
+      opacity: .6;
+      background-color: grey;
+      height: 100%;
+      width: 100%;
+      transition: background-color linear 0.5s, height linear 0.5s, width linear 0.5s;
+    }
+    
+    .catOverlay:after{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: 10%;
+      width: 10%;
+      opacity: 0;
+      content: "";
+    }
+    .catOverlay:hover:after{
+      opacity: .6;
+      background-color: black;
+      height: 100%;
+      width: 100%;
+      transition: background-color linear 0.5s, height linear 0.5s, width linear 0.5s;
+    }
+    
+    .catTitle {
+     font-family: 'Times New Roman', Times, serif;
+     text-transform: uppercase;
+      position: absolute;
+      display: block;
+      color: #FFFFFF;
+      text-shadow: 5px 5px 10px black;
+      font-size: x-large;
+      left: 50%;
+      margin: -60% 0 0 -25%;
+      width: 50%;
+      height: auto;
+      z-index: 2;
+    }
+    
+    .catHeading {
+      text-align: center;
+      font-weight: bolder;
+      font-size: 3em;
+    }
+    
+    .catSub {
+      text-align: center;
+      font-weight: bolder;
+      font-size: 1.8em;
+    }
+  
+  
