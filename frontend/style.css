@@ -1,0 +1,6 @@
+.container-fluid > a {
+    color: black;
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    font-weight: 900;
+}
