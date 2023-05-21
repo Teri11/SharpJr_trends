@@ -4,7 +4,7 @@
     padding-left: 0.938rem;
     margin-right: auto;
     margin-left: auto;
-    font-family: 'Open Sans', sans-serif
+    font-family: 'Times New Roman', Times, serif;
   }
   .container-fluid > h1{
     padding-bottom: 1rem;
@@ -47,7 +47,7 @@ input[type=text], select, textarea {
   
  
   input[type=submit] {
-    background-color:  rgb(247,147,43);
+    background-color:black;
     color: white;
     padding: 0.75rem 1.25rem;
     border: none;
