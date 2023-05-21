@@ -170,7 +170,10 @@
       font-weight: bolder;
       font-size: 1.8em;
     }
-  
+    #catDiv{
+      color: black;
+      font-family: 'Times New Roman', Times, serif;
+    }
 
     /* grid */
 
