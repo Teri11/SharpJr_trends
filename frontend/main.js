@@ -31,3 +31,9 @@ function updateSlidePosition() {
   slides[slidePosition].classList.remove('inactive');
   slides[slidePosition].classList.add('active');
 }
+
+
+
+
+
+
