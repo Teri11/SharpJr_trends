@@ -1,3 +1,7 @@
+#image{
+  height: 35rem;
+}
+
 .container-fluid>a {
   color: black;
   font-family: 'Lora', serif;
