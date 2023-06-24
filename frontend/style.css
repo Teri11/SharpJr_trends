@@ -70,6 +70,18 @@
   pointer-events: none;
   transition: opacity 0.5s;
 }
+#slogan{
+  color:white;
+  font-size: 3rem;
+  font-family: 'Lora', serif;
+  font-weight: 900;
+}
+#line99{
+  color: white;
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
+}
+
 
 /* slider image ends */
 
