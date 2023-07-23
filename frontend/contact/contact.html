@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <h1>CONTACT US</h1>
+        <p>We are listening! Please fill in the form below and we will respond within 24 hours.<br>
+          You could also email us at <span style="color: red;">support@sharpJr.co.ke</span></p>
+          <section>
+            <div class="form">
+              <form action="action_page.php">
+      
+                <label class="required" for="fname"><b>Full Name</b></label>
+                <input type="text" minlength="3" maxlength="20"id="fname" name="firstname" placeholder="Full names.."    required >
+            
+                <label class="required"  for="lname"><b>Your Email</b></label>
+                <input type="email" id="lname" name="lastname" placeholder="Your Email..">
+            
+                <label class="required"  for="topic"><b>Select Topic</b></label>
+                <select id="topic" name="topic">
+                  <option value="trial">Product Return?</option>
+                  <option value="plan">Need a custom outfit?</option>
+                  <option value="question">General Question or something else?</option>
+                </select>
+            
+                <label class="required"  for="subject"><b>Your Message & Details</b></label>
+                <textarea id="subject" name="subject" placeholder="Your detailed Message..." style="height:200px"></textarea>
+            
+                <input type="submit" value="Send Message">
+            
+              </form>
+        </div>
+</body>
+</html>
