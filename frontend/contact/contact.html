@@ -18,8 +18,8 @@
                 <label class="required" for="fname"><b>Full Name</b></label>
                 <input type="text" pattern="[A-Za-z ]{3,20}" id="fname" name="firstname" placeholder="Full names.." required title="Please use only letters (no numbers or special characters).">
 
-                <label class="required" for="lname"><b>Your Email</b></label>
-                <input type="email" id="lname" name="lastname" placeholder="Your Email.." required>
+                <label class="required" for="email"><b>Your Email</b></label>
+                <input type="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" id="email" name="email" placeholder="Your Email.." required title="Please enter a valid email address.">
 
                 <label class="required" for="topic"><b>Select Topic</b></label>
                 <select id="topic" name="topic" required>
@@ -40,3 +40,4 @@
     <script src="contact.js"></script>
 </body>
 </html>
+
