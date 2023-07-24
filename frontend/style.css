@@ -10,10 +10,14 @@ body {
 .container{
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.4rem;
+
+
+ 
 }
 .container > a{
   font-size: 2rem;
 }
+
 
 /* Image styles */
 
