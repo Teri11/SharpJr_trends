@@ -6,6 +6,14 @@ body {
   margin: 0;
   padding: 0;
 }
+/* navbar */
+.container{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.4rem;
+}
+.container > a{
+  font-size: 2rem;
+}
 
 /* Image styles */
 
