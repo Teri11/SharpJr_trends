@@ -1,18 +1,17 @@
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <title>Sign Up</title>
   <link rel="stylesheet" type="text/css" href="login.css">
 </head>
-
 <body>
   <div class="login-root">
-    <div class="box-root flex-flex flex-direction--column" style="min-height: 100vh;flex-grow: 1;">
+    <div class="box-root flex-flex flex-direction--column" style="min-height: 100vh; flex-grow: 1;">
       <div class="loginbackground box-background--white padding-top--64">
         <div class="loginbackground-gridContainer">
           <div class="box-root flex-flex" style="grid-area: top / start / 8 / end;">
-            <div class="box-root" style="background-image: linear-gradient(white 0%, rgb(247, 250, 252) 33%); flex-grow: 1;">
-            </div>
+            <div class="box-root" style="background-image: linear-gradient(white 0%, rgb(247, 250, 252) 33%); flex-grow: 1;"></div>
           </div>
           <div class="box-root flex-flex" style="grid-area: 4 / 2 / auto / 5;">
             <div class="box-root box-divider--light-all-2 animationLeftRight tans3s" style="flex-grow: 1;"></div>
@@ -50,10 +49,10 @@
               <span class="padding-bottom--15">Sign Up for an account</span>
               <form id="stripe-login">
                 <div class="field padding-bottom--24">
-                    <label for="email">First Name</label>
-                    <input type="name" name="name">
-                    <label for="secondName">Second Name</label>
-                    <input type="secondName" name="secondName">
+                  <label for="firstName">First Name</label>
+                  <input type="text" name="firstName" pattern="[A-Za-z]+" title="Please enter letters only">
+                  <label for="secondName">Second Name</label>
+                  <input type="text" name="secondName" pattern="[A-Za-z]+" title="Please enter letters only">
                   <label for="email">Email Address</label>
                   <input type="email" name="email">
                 </div>
@@ -65,20 +64,16 @@
                     </div>
                   </div>
                   <input type="password" name="password">
-                  <label for="password">Confirm Password</label>
-                  <input type="confirmPassword" name="confirmPassword">
-                 
-                    <label for="example">Select Pricing</label>
-                    <select id="example">
-                    <option value="option1">Basic Plan:$5.00 USD one time payment</option>
-                    <option value="option2">Standard Plan:$10.00 USD Monthly payment</option>
-                    <option value="option3">Pro Plan:$20 USD Monthly Payment</option>
-                    <option value="option4">Premium Plan:$30 USD Monthly Payment</option>
-                    </select>
-                
+                  <label for="confirmPassword">Confirm Password</label>
+                  <input type="password" name="confirmPassword">
+                  <label for="example">Select Pricing</label>
+                  <select id="example" name="pricing">
+                    <option value="option1">Basic Plan: $5.00 USD one-time payment</option>
+                    <option value="option2">Standard Plan: $10.00 USD Monthly payment</option>
+                    <option value="option3">Pro Plan: $20 USD Monthly Payment</option>
+                    <option value="option4">Premium Plan: $30 USD Monthly Payment</option>
+                  </select>
                 </div>
-                
-                  
                 <div class="field field-checkbox padding-bottom--24 flex-flex align-center">
                   <label for="checkbox">
                     <input type="checkbox" name="checkbox"> Stay signed in
@@ -96,17 +91,17 @@
           <div class="footer-link padding-top--24">
             <span>Have an account? <a href="../logins/login.html">Login</a></span>
             <div class="listing padding-top--24 padding-bottom--24 flex-flex center-center">
-                <span><a href="#">© Sharp Jr. 2023</a></span>
-                <span><a href="../index.html">Home</a></span>
+              <span><a href="#">© Sharp Jr. 2023</a></span>
+              <span><a href="../index.html">Home</a></span>
               <span><a href="../contact/contact.html">Contact</a></span>
               <span><a href="#">Privacy & terms</a></span>
             </div>
-            
           </div>
         </div>
       </div>
     </div>
   </div>
+  <script src="login.js"></script>
 </body>
-<script src="login.js"></script>
 </html>
+
