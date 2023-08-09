@@ -56,34 +56,6 @@ def contactus(request):
   
     return render(request, 'contactus.html')
 
-
-
-def tracker(request):
-    if not request.user.is_authenticated:
-        messages.warning(request,"Login & Try Again")
-        return redirect('/login')
-    if request.method=="POST":
-        orderId = request.POST.get('orderId', '')
-        email = request.POST.get('email', '')
-        try:
-            order = Orders.objects.filter(order_id=orderId, email=email)
-            if len(order)>0:
-                update = OrderUpdate.objects.filter(order_id=orderId)
-                updates = []
-                for item in update:
-                    updates.append({'text': item.update_desc, 'time': item.timestamp})
-                    response = json.dumps([updates, order[0].items_json], default=str)
-                return HttpResponse(response)
-            else:
-                return HttpResponse('{}')
-        except Exception as e:
-            return HttpResponse('{}')
-
-    return render(request, 'tracker.html')
-
-
-
-
 def productView(request, myid):
     product = Product.objects.filter(id=myid)
 
@@ -173,7 +145,7 @@ def handlerequest(request):
       
 
 
-def handlelogin(request):
+def login(request):
       if request.method == 'POST':
         loginusername=request.POST['email']
         loginpassword=request.POST['pass1']
