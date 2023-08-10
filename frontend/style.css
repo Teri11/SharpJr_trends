@@ -7,7 +7,7 @@ body {
   padding: 0;
 }
 /* navbar */
-.container{
+.container-fluid{
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.3rem;
 
