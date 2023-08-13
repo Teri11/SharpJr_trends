@@ -9,7 +9,7 @@ body {
 /* navbar */
 .container-fluid{
   font-family: 'Times New Roman', Times, serif;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 
 
  
@@ -58,6 +58,7 @@ body {
 .slide img {
   width: 100%;
   height: auto;
+  margin-top: 2.5rem;
 }
 
 .carousel-nav {
@@ -587,3 +588,39 @@ a, a:hover, a:focus, a:active {
   }
 }
 
+/* footer starts */
+.footer {
+  background-color:black;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer .col {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer h4 {
+  margin-bottom: 10px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+}
+
+.footer .contact-info {
+  display: flex;
+  flex-direction: column;
+}
+/* footer ends */
