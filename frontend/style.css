@@ -623,4 +623,11 @@ a, a:hover, a:focus, a:active {
   display: flex;
   flex-direction: column;
 }
+.finals{
+  text-decoration: none;
+  color: white;
+}
+.finals:hover {
+  color: white; /* Set the text color when hovering */
+}
 /* footer ends */
