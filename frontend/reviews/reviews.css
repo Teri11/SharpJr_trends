@@ -7,6 +7,8 @@
     background: #fbfbfb;
     box-shadow: #e6e6e6 0 0 4px ;
     border-radius: 0.25rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
   }
   
   @media (max-width: 720px) {
