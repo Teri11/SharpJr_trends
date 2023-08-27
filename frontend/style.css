@@ -634,3 +634,25 @@ a, a:hover, a:focus, a:active {
   color: white; /* Set the text color when hovering */
 }
 /* footer ends */
+
+
+/* whatsappp starts*/
+#whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+#whatsapp-button a img {
+  width: 60px; /* Adjust the size as needed */
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+#whatsapp-button a img:hover {
+  transform: scale(1.1);
+}
+/* watsapp ends */

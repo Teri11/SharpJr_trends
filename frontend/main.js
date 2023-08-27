@@ -32,8 +32,15 @@ function updateSlidePosition() {
   slides[slidePosition].classList.add('active');
 }
 
-
-
-
+// watsapp starts
+window.addEventListener("scroll", function () {
+  var whatsappButton = document.getElementById("whatsapp-button");
+  if (window.scrollY > 300) {
+    whatsappButton.style.opacity = "1";
+  } else {
+    whatsappButton.style.opacity = "0";
+  }
+});
+// watsapp ends
 
 
