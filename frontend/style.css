@@ -658,7 +658,6 @@ a, a:hover, a:focus, a:active {
 /* watsapp ends */
 
 /* newletter starts */
-
 .newsletter-container {
   background-color: #fff;
   border-radius: 8px;
@@ -708,3 +707,62 @@ a, a:hover, a:focus, a:active {
 .subscribe-button:hover {
   background-color: grey;
 }
+/* newletter ends */
+
+/* brands starts */
+.trending-brands {
+  text-align: center;
+  margin-top: 20px;
+}
+.trending-brands h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.slider-container {
+  overflow: hidden;
+}
+.slider {
+  list-style: none;
+  display: flex;
+  /* animation: slide 110s linear infinite; */
+  padding: 0;
+  margin: 0;
+}
+.slider li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  width: 230px; /* Adjust this width as needed */
+  display: flex;
+  align-items: center;
+}
+.slider img {
+  width: 94px; /* Adjust this width as needed */
+  height: auto;
+  margin-right: 10px;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .trending-brands h2 {
+    font-size: 20px;
+  }
+
+  .slider li {
+    width: 100px;
+    padding: 5px;
+  }
+
+  .slider img {
+    width: 20px;
+    margin-right: 5px;
+  }
+}
+/* brands ends */
