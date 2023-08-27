@@ -766,3 +766,40 @@ a, a:hover, a:focus, a:active {
   }
 }
 /* brands ends */
+
+/* payments starts */
+.payment-container {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 700px; /* Set a maximum width */
+}
+
+.payment-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally on small screens */
+  gap: 10px;
+}
+
+.payment-option {
+  display: flex;
+  align-items: center;
+}
+
+.payment-logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .payment-options {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+/* payments ends */
