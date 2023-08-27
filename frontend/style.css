@@ -7,9 +7,9 @@ body {
   padding: 0;
 }
 /* navbar */
-.container{
+.container-fluid{
   font-family: 'Times New Roman', Times, serif;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 
 
  
@@ -58,6 +58,7 @@ body {
 .slide img {
   width: 100%;
   height: auto;
+  margin-top: 2.5rem;
 }
 
 .carousel-nav {
@@ -570,6 +571,9 @@ a, a:hover, a:focus, a:active {
 .testimonials button:hover {
   background-color: #444;
 }
+#btnnn{
+  font-family: 'Times New Roman', Times, serif;
+}
 
 @media (min-width: 38.4rem) {
   .testimonials {
@@ -587,3 +591,215 @@ a, a:hover, a:focus, a:active {
   }
 }
 
+/* footer starts */
+.footer {
+  background-color:black;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer .col {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer h4 {
+  margin-bottom: 10px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+}
+
+.footer .contact-info {
+  display: flex;
+  flex-direction: column;
+}
+.finals{
+  text-decoration: none;
+  color: white;
+}
+.finals:hover {
+  color: white; /* Set the text color when hovering */
+}
+/* footer ends */
+
+
+/* whatsappp starts*/
+#whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+#whatsapp-button a img {
+  width: 60px; /* Adjust the size as needed */
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+#whatsapp-button a img:hover {
+  transform: scale(1.1);
+}
+/* watsapp ends */
+
+/* newletter starts */
+.newsletter-container {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.newsletter-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+}
+
+.newsletter-subheading {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.email-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.subscribe-button {
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.subscribe-button:hover {
+  background-color: grey;
+}
+/* newletter ends */
+
+/* brands starts */
+.trending-brands {
+  text-align: center;
+  margin-top: 20px;
+}
+.trending-brands h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.slider-container {
+  overflow: hidden;
+}
+.slider {
+  list-style: none;
+  display: flex;
+  /* animation: slide 110s linear infinite; */
+  padding: 0;
+  margin: 0;
+}
+.slider li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  width: 230px; /* Adjust this width as needed */
+  display: flex;
+  align-items: center;
+}
+.slider img {
+  width: 94px; /* Adjust this width as needed */
+  height: auto;
+  margin-right: 10px;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .trending-brands h2 {
+    font-size: 20px;
+  }
+
+  .slider li {
+    width: 100px;
+    padding: 5px;
+  }
+
+  .slider img {
+    width: 20px;
+    margin-right: 5px;
+  }
+}
+/* brands ends */
+
+/* payments starts */
+.payment-container {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 700px; /* Set a maximum width */
+}
+
+.payment-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally on small screens */
+  gap: 10px;
+}
+
+.payment-option {
+  display: flex;
+  align-items: center;
+}
+
+.payment-logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .payment-options {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+/* payments ends */
