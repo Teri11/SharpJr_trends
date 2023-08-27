@@ -22,7 +22,12 @@
       padding: 10px;
     }
   }
-  
+.feedback-info{
+    font-size: 1.5rem;
+}
+.personal-info{
+    font-size: 1.5rem;
+}
   #fh2{
    padding: 2px 15px;
    color: black;

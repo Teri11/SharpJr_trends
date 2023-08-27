@@ -20,27 +20,57 @@
         
         <form id="feedback" action="submit_review.php" method="POST">
           <div class="personal-info">Your Personal Information</div>
-          
+          <h6>Name</h6>
           <div class="form-group">
             <div class="input-group">
               <span class="input-group-addon"><i class="fa fa-user"></i></span>
               <input name="name" placeholder="John Doe" class="form-control" type="text" required>
             </div>
           </div>
-          
+          <h6>Email</h6>
           <div class="form-group">
             <div class="input-group">
               <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
               <input name="email" type="email" class="form-control" placeholder="john.doe@example.com" required>
             </div>
           </div>
-          
+          <h6>Country Of Choice</h6>
           <div class="form-group">
             <div class="input-group">
               <span class="input-group-addon"><i class="fa fa-globe"></i></span>
-              <input name="URL" placeholder="https://example.com" class="form-control" type="url">
+              <select name="country" class="form-control">
+                <optgroup label="Africa">
+                  <option value="egypt">Kenya</option>
+                  <option value="nigeria">Nigeria</option>
+                  <option value="southafrica">South Africa</option>
+                </optgroup>
+                <optgroup label="Asia">
+                  <option value="china">China</option>
+                  <option value="india">India</option>
+                  <option value="japan">Japan</option>
+                </optgroup>
+                <optgroup label="Europe">
+                  <option value="france">United Kingdom</option>
+                  <option value="germany">Germany</option>
+                  <option value="italy">Italy</option>
+                </optgroup>
+                <optgroup label="North America">
+                  <option value="canada">Canada</option>
+                  <option value="usa">United States</option>
+                  <option value="mexico">Mexico</option>
+                </optgroup>
+                <optgroup label="Oceania">
+                  <option value="australia">Australia</option>
+                  <option value="newzealand">New Zealand</option>
+                </optgroup>
+                <optgroup label="South America">
+                  <option value="brazil">Brazil</option>
+                  <option value="argentina">Argentina</option>
+                </optgroup>
+              </select>
             </div>
           </div>
+          
           
           <div class="rate-info">Rate Our Overall Services</div>
           
