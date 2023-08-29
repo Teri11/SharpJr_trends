@@ -4,4 +4,4 @@
 
 python manage.py runserver
 ```
-# Happy coding!!
+# Happy coding!
